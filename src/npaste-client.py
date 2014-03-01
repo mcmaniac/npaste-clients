@@ -15,7 +15,8 @@ def read_data(filename):
 
 def main():
 
-  # Get command like arguments
+  # Get command line arguments
+
   parser = optparse.OptionParser(usage=usage, version=version)
 
   parser.add_option("-f", "--file",
